@@ -1,0 +1,120 @@
+@font-face {
+    font-family: champagneLimousines;
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines.ttf);
+    /* src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf);
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Bold\ Italic.ttf);
+    src: url(../assets/champagne_limousines/Champagne\ &\ Limousines\ Italic.ttf); */
+}
+
+@font-face {
+    font-family: nixieOne;
+    src: url(../assets/nixie_one/NixieOne-Regular.ttf);
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: champagneLimousines;
+    color: #ef4136;
+}
+
+h2 {
+    font-family: champagneLimousines;
+    color: #414042;
+    font-size: 20px;
+}
+
+p {
+    font-family: nixieOne;
+}
+
+header {
+    background-color: #414042;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    font-family: champagneLimousines;
+    color: #e8dce5;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;;
+    padding-bottom: 5px;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#heroImage {
+    height: 500px;
+    width: 100%;
+    background-color: #e8dce5;
+    display: flex;
+
+}
+
+#aboutText {
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#aboutImage {
+    padding-right: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;  
+} 
+
+#mySkills {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mySkills p {
+    text-align: center;
+}
+
+.download {
+    background-color: #429cd6;
+    font-family: champagneLimousines;
+    color: #e8dce5;
+    font-size: 16px;
+    border: 1px #429cd6;
+    border-radius: 12px;
+    padding: 10px;
+    transition-duration: .3s;
+    box-shadow: none;
+}
+
+.download:hover {
+    background-color: #414042;
+    color: #e8dce5;
+}
+
+#myWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
