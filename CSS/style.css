@@ -20,6 +20,7 @@ body {
 h1 {
     font-family: champagneLimousines;
     color: #ef4136;
+    font-size: 40px;
 }
 
 h2 {
@@ -50,6 +51,7 @@ ul {
     flex-direction: row;
     margin-bottom: 5px;;
     padding-bottom: 5px;
+    padding-right: 10px;
 }
 
 li {
@@ -94,11 +96,11 @@ li {
 }
 
 .download {
-    background-color: #429cd6;
+    background-color: #c4ab2f;
     font-family: champagneLimousines;
-    color: #e8dce5;
+    color: #414042;
     font-size: 16px;
-    border: 1px #429cd6;
+    border: 1px #c4ab2f;
     border-radius: 12px;
     padding: 10px;
     transition-duration: .3s;
@@ -107,7 +109,7 @@ li {
 
 .download:hover {
     background-color: #414042;
-    color: #e8dce5;
+    color: #c4ab2f;
 }
 
 #myWork {
@@ -116,5 +118,48 @@ li {
     align-items: center;
     padding-top: 30px;
 
+}
+
+.projectSummary {
+
+}
+
+.projectImage {
+
+}
+
+#contact {
+    background-color: #e8dce5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footerContent {
+    background-color: #414042;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#footerMenu {
+    margin-top: 5px;;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#copyright {
+    background-color: #e8dce5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyrightIcon {
+    width: 1%;
 }
 
